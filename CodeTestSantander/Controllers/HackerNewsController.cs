@@ -20,8 +20,12 @@ namespace CodeTestSantander.Controllers
         }
 
         [HttpGet(Name = "GetHackerNews")]
-        public async Task<List<HackerNewsModel>> Get(int numberOfNews)
+        public async Task<ActionResult<List<HackerNewsModel>>> Get(int numberOfNews)
         {
+            if (numberOfNews<0) {
+                return BadRequest();
+            }
+
             var result = new List<HackerNewsModel>();
 
             var cacheData = _cacheService.GetData<List<HackerNewsModel>>("BestNews");
@@ -34,7 +38,7 @@ namespace CodeTestSantander.Controllers
 
             result=cacheData.ToList().OrderByDescending(x=>x.Score).Take(numberOfNews).ToList();
 
-            return result;
+            return Ok(result);
 
         }
     }
