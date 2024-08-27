@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\SantanderCodeTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60C4DB99-009A-45F0-83EB-D4BE344ED840}|CodeTestSantander\\CodeTestSantander.csproj|c:\\users\\user\\source\\repos\\santandercodetest\\codetestsantander\\controllers\\hackernewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C4DB99-009A-45F0-83EB-D4BE344ED840}|CodeTestSantander\\CodeTestSantander.csproj|solutionrelative:codetestsantander\\controllers\\hackernewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HackerNewsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SantanderCodeTest\\CodeTestSantander\\Controllers\\HackerNewsController.cs",
+              "RelativeDocumentMoniker": "CodeTestSantander\\Controllers\\HackerNewsController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SantanderCodeTest\\CodeTestSantander\\Controllers\\HackerNewsController.cs",
+              "RelativeToolTip": "CodeTestSantander\\Controllers\\HackerNewsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:33:55.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
